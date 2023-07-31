@@ -5,7 +5,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class AddEducationPage extends BasePage{
     @FindBy(xpath = "//button[text()='Add Education'][./parent::div]")
@@ -17,6 +18,8 @@ public class AddEducationPage extends BasePage{
     @FindBy(xpath = "//*[@id='currentedu']")
     public WebElement checkBox;
 
+    @FindBy(xpath = "//label[text()='School or Bootcamp *']/../..//label")
+    public List<WebElement> addEducationFormLabels;
     public void fillingEducationForm(){
         Actions actions=new Actions(Driver.get());
 
