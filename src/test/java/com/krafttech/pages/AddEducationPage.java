@@ -18,6 +18,13 @@ public class AddEducationPage extends BasePage{
     @FindBy(xpath = "//*[@id='currentedu']")
     public WebElement checkBox;
 
+    @FindBy(xpath = "(//form)[3]//label[@for!='current']")
+    public List<WebElement> addEducationFormLabels_1;
+
+    @FindBy(xpath = "(//form)[3]//label[not(@for='current')]")
+    public List<WebElement> addEducationFormLabels_2;
+
+
     @FindBy(xpath = "//label[text()='School or Bootcamp *']/../..//label")
     public List<WebElement> addEducationFormLabels;
     public void fillingEducationForm(){
@@ -30,5 +37,17 @@ public class AddEducationPage extends BasePage{
                 .sendKeys("11122020"+Keys.TAB+Keys.TAB)
                 .sendKeys("12122022"+Keys.TAB)
                 .sendKeys("Nice Course"+Keys.TAB+Keys.ENTER).perform();
+    }
+
+    public void fillingEducationForm(String school,String degree,String study,String fromDate,String toDate,String description){
+        Actions actions=new Actions(Driver.get());
+
+        actions.click(schoolOrBootcamp)
+                .sendKeys(school+ Keys.TAB)
+                .sendKeys(degree+Keys.TAB)
+                .sendKeys(study+Keys.TAB)
+                .sendKeys(fromDate+Keys.TAB+Keys.TAB)
+                .sendKeys(toDate+Keys.TAB)
+                .sendKeys(description+Keys.TAB+Keys.ENTER).perform();
     }
 }
