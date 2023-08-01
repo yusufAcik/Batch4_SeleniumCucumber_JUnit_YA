@@ -1,3 +1,4 @@
+@regression
 Feature: Cucumber tests with excel file
 
 

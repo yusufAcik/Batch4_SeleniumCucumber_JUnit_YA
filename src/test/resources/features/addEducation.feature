@@ -1,3 +1,4 @@
+@regression
 Feature: Add Education Tests
 
 

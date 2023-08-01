@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e421c32b-3c9e-4298-ad11-e259caacdcdb" name="Changes" comment="7 31">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/runners/FailedTestRunner.java" afterDir="false" />
+    <list default="true" id="e421c32b-3c9e-4298-ad11-e259caacdcdb" name="Changes" comment="rerun test class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/step_defs/Dashboard_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/step_defs/Dashboard_StepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/step_defs/Login_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/step_defs/Login_StepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/krafttech/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krafttech/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/addEducation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/addEducation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/cucumberExcel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/cucumberExcel.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dashboard.feature" afterDir="false" />
     </list>
@@ -26,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,19 +54,19 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/Batch4_SeleniumCucumber_JUnit_YA/src/test/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/Batch4_SeleniumCucumber_JUnit_YA/src/test/java/com/krafttech/utilities"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\Batch4_SeleniumCucumber_JUnit_YA\src\test\java\com\krafttech\utilities" />
       <recent name="C:\Users\ASUS\IdeaProjects\Batch4_SeleniumCucumber_JUnit_YA\src\test\resources" />
       <recent name="C:\Users\ASUS\IdeaProjects\Batch4_SeleniumCucumber_JUnit_YA" />
       <recent name="C:\Users\ASUS\IdeaProjects\Batch4_SeleniumCucumber_JUnit_YA\src\test\java\com\krafttech" />
-      <recent name="C:\Users\ASUS\IdeaProjects\Batch4_SeleniumCucumber_JUnit_YA\src\test\java\com\krafttech\utilities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.krafttech.utilities" />
@@ -125,13 +131,32 @@
       <option name="project" value="LOCAL" />
       <updated>1690837101025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rerun test class">
+      <created>1690920710868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690920710868</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit ." />
     <MESSAGE value="7 31" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 31" />
+    <MESSAGE value="rerun test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="rerun test class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
