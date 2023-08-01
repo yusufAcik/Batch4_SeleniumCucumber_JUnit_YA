@@ -1,6 +1,6 @@
 Feature: Dashboard tests
 
-
+  @wip
   Scenario: Dashboard Menu tests (Usage of cucumber list)
 
     Given Tht user is on the login page
@@ -13,5 +13,5 @@ Feature: Dashboard tests
       | Components  |
       | Forms       |
       | JavaScript  |
-      | Melih Gezer |
+      | Melih Gezer7 |
 
