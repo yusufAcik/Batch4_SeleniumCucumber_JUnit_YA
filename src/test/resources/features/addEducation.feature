@@ -22,7 +22,7 @@ Feature: Add Education Tests
     When The user logs in with valid credentials "mgezer@gmail.com" and "Mg12345678"
     And Verify that the username on the dashboard page is "Melih Gezer"
     When The user should be able to navigate Tabs and Modules with "Melih Gezer" and "My Profile"
-    And The user sohould be able navigate User Profile Page Tabs with "Add Education"
+    And The user should be able navigate User Profile Page Tabs with "Add Education"
     Then The user should be able to see following labels at the Education Form_second
       | School or Bootcamp *    |
       | Degree or Certificate * |
@@ -37,7 +37,7 @@ Feature: Add Education Tests
     When The user logs in with valid credentials "<userEmail>" and "<password>"
     And Verify that the username on the dashboard page is "<username>"
     When The user should be able to navigate Tabs and Modules with "<tabName>" and "<moduleName>"
-    And The user sohould be able navigate User Profile Page Tabs with "<userProfileTabName>"
+    And The user should be able navigate User Profile Page Tabs with "<userProfileTabName>"
     Then The user should be able to see following labels at the Education Form_second
       | School or Bootcamp *    |
       | Degree or Certificate * |
