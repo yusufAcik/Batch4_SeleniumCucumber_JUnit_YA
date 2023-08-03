@@ -1,6 +1,5 @@
 Feature: Dashboard tests
 
-  @wip
   Scenario: Dashboard Menu tests (Usage of cucumber list)
 
     Given Tht user is on the login page

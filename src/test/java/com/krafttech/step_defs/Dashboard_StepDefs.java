@@ -43,4 +43,14 @@ public class Dashboard_StepDefs {
 
         Assert.assertEquals(expectedUsername,actualUsername);
     }
+    @When("The user navigates to tab and module via {string} and {string} from excel file {string}, {string}, {int}")
+    public void the_user_navigates_to_tab_and_module_via_and_from_excel_file(String yourName, String moduleName, String path, String sheetName, Integer row) {
+    ExcelUtil excelUtil=new ExcelUtil(path,sheetName);
+        List<Map<String, String>> dataList = excelUtil.getDataList();
+
+        String yourNameData=dataList.get(row).get(yourName);
+        String module=dataList.get(row).get(moduleName);
+
+        dashboardPage.navigateToTabsAndModules(yourNameData,module);
+    }
 }
