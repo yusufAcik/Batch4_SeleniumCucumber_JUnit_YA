@@ -73,9 +73,12 @@ public class Login_StepDefs {
     }
     @When("The user logins with valid credentials {string} and {string} from excel file {string}, {string},{int}")
     public void the_user_logins_with_valid_credentials_and_from_excel_file(String yourEmail, String password, String path, String sheetName, Integer row) {
-        ExcelUtil excelUtil = new ExcelUtil(path,sheetName);
+//        ExcelUtil excelUtil = new ExcelUtil(path,sheetName);
+//
+//        List<Map<String, String>> dataList = excelUtil.getDataList();
 
-        List<Map<String, String>> dataList = excelUtil.getDataList();
+        List<Map<String,String>> dataList = loginPage.getExcelData(path,sheetName);
+
         String email = dataList.get(row).get(yourEmail);
         String pass=dataList.get(row).get(password);
 
